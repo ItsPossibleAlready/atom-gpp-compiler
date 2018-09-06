@@ -1,7 +1,7 @@
 {
-  "name": "gpp-compiler",
+  "name": "gcc-compiler",
   "main": "./index.js",
-  "version": "3.0.7",
+  "version": "3.0.8",
   "description": "Compile and run C and C++ within Atom",
   "keywords": [
     "compile",
@@ -12,24 +12,32 @@
     "mingw",
     "xcode"
   ],
-  "repository": "https://github.com/kriscross07/atom-gpp-compiler",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsPossibleAlready/atom-gpp-compiler.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {},
-  "author": "kriscross07",
+  "author": "ItsPossibleAlready",
   "contributors": [
     "kriscross07",
     "PoVa",
     "LinuxMercedes",
     "farnabaz",
-    "sylxjtu"
+    "sylxjtu",
+    "ItsPossibleAlready"
   ],
   "scripts": {
     "test": "eslint index.js"
   },
   "devDependencies": {
     "eslint": "3.0.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ItsPossibleAlready/atom-gpp-compiler/issues"
+  },
+  "homepage": "https://github.com/ItsPossibleAlready/atom-gpp-compiler#readme"
 }

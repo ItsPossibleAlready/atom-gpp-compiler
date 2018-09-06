@@ -1,3 +1,7 @@
+## 3.0.8
+* Added support for Deepin Terminal
+* Updated Readme
+
 ## 3.0.7
 * Added support for MATE Terminal.
 

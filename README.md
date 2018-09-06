@@ -23,19 +23,23 @@ If that command does not output
 
 you will need to install it.
 
-For RHEL-based distros, run `sudo dnf install gcc gcc-c++`.
+* For RHEL-based distros, run `sudo dnf install gcc gcc-c++`.
 
-For Debian-based distros, run `sudo apt install gcc g++`.
+* For Debian-based distros, run `sudo apt install gcc g++`.
 
-For Arch-based distros, run `sudo pacman -S gcc`.
+* For Arch-based distros, run `sudo pacman -S gcc`.
 
 ### Windows
 
-You'll need to install [MinGW](http://www.mingw.org/) and [add it to your PATH](http://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/).
+##### Their is two variants :
+
+* You'll need to install [MinGW](http://www.mingw.org/) and [add it to your PATH](http://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/).
+
+* You'll need to install [TDM-GCC](http://tdm-gcc.tdragon.net/download) and reboot your computer (But it doesn't support c++14 and c++17).
 
 ### Mac
 
-You'll need to install [XCode](https://developer.apple.com/xcode/).
+* You'll need to install [XCode](https://developer.apple.com/xcode/).
 
 ## Contributing
 
